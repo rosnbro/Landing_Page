@@ -15,15 +15,17 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 16px;
+    padding: 0 288px;
 }
 
 .footer {
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 16px 288px;
 }
 
 .logo {
@@ -41,6 +43,8 @@ button {
 
 .hero {
     background-color: #1F2937;
+    padding: 72px 288px;
+    display: flex;
 }
 
 .hero_main {
@@ -54,10 +58,21 @@ button {
     color: #E5E7EB;
 }
 
+.hero_img {
+    max-width: 600px;
+    height: auto;
+}
+
+.information {
+    padding: 0 288px 72px;
+    text-align: center;
+}
+
 .card_title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 72px 0;
 }
 
 .cards {
@@ -66,8 +81,19 @@ button {
     gap: 16px;
 }
 
+.card {
+    width: 300px;
+}
+
+.card_img {
+    max-width: 300px;
+    height: auto;
+    border-color: #3882F6;
+}
+
 .quote {
     background-color: #E5E7EB;
+    padding: 72px 288px;
 }
 
 .quote_text {
@@ -85,7 +111,7 @@ button {
 
 .call {
     background-color: #3882F6;
-    margin: 72px;
+    margin: 144px;
     padding: 72px;
     border-radius: 8px;
 }
