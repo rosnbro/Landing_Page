@@ -6,8 +6,42 @@ body {
     flex-direction: column;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #3882F6;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 2px solid white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
 }
 
 .header {
@@ -15,17 +49,25 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 288px;
+    padding: 24px 288px;
 }
 
 .footer {
     background-color: #1F2937;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 16px 288px;
+    padding: 24px 288px;
+}
+
+.credit {
+    color:#E5E7EB
+}
+
+.credit:visited {
+    color: #E5E7EB;
 }
 
 .logo {
@@ -41,9 +83,14 @@ button {
     color: #E5E7EB;
 }
 
+.link:hover {
+    color: #3882F6;
+    cursor: pointer;
+}
+
 .hero {
     background-color: #1F2937;
-    padding: 72px 288px;
+    padding: 36px 288px 72px;
     display: flex;
 }
 
@@ -51,20 +98,24 @@ button {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding: 8px 0px;
 }
 
 .hero_secondary {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 8px 0px;
 }
 
 .hero_img {
     max-width: 600px;
     height: auto;
+    border: 4px solid white;
+    margin: 0 0 0 32px;
 }
 
 .information {
-    padding: 0 288px 72px;
+    padding: 0 288px 144px;
     text-align: center;
 }
 
@@ -78,7 +129,7 @@ button {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
 }
 
 .card {
@@ -88,19 +139,21 @@ button {
 .card_img {
     max-width: 300px;
     height: auto;
-    border-color: #3882F6;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
 }
 
 .quote {
     background-color: #E5E7EB;
-    padding: 72px 288px;
+    padding: 144px 288px;
 }
 
 .quote_text {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 100;
     color: #1F2937;
+    padding: 16px 0;
 }
 
 .quote_name {
@@ -110,8 +163,23 @@ button {
 }
 
 .call {
+    display: flex;
     background-color: #3882F6;
-    margin: 144px;
-    padding: 72px;
+    margin: 144px 288px;
+    padding: 72px 144px;
     border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call_title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call_subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 8px 0;
 }

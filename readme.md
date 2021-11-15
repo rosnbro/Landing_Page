@@ -3,3 +3,6 @@ The aim is to create a website that looks like image1 using the properties outli
 
 image1: https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
 image2: https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png
+
+The images displayed on the site are the work of photographer Ben Rosenberger, who can be found at:
+https://www.benrosenberger.com
